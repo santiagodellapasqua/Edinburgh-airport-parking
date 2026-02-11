@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edinburgh Airport Parking | Save up to 70% | Book Cheap EDI Parking</title>
+    <meta name="description" content="Compare and book Edinburgh Airport parking from £22.75/week. Save up to 70% on official prices. Meet & Greet, Park & Ride, Long Stay. Free cancellation available.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.enjoytravel.com/en/airport-parking/united-kingdom/edinburgh-edi">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Edinburgh Airport Parking | Save up to 70% | Book Cheap EDI Parking">
+    <meta property="og:description" content="Compare and book Edinburgh Airport parking from £22.75/week. Save up to 70% on official prices.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.enjoytravel.com/en/airport-parking/united-kingdom/edinburgh-edi">
+    
+    <style>
+        /* CSS Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #0066cc;
+            --primary-dark: #004c99;
+            --secondary-color: #00a86b;
+            --accent-color: #ff6b35;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6b6b6b;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --border-color: #e0e0e0;
+            --success-color: #00c853;
+            --warning-color: #ffc107;
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 8px rgba(0,0,0,0.12);
+            --shadow-lg: 0 8px 16px rgba(0,0,0,0.15);
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-white);
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .container-wide {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            color: var(--primary-dark);
+        }
+        
+        h4 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            color: var(--text-dark);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-medium);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            color: white;
+            padding: 60px 0 80px;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v100H0z" fill="none"/><path d="M50 10L90 90H10z" fill="rgba(255,255,255,0.05)"/></svg>');
+            opacity: 0.1;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 3rem;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+        
+        /* Trust Badges */
+        .trust-badges {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.15);
+            padding: 12px 20px;
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(10px);
+        }
+        
+        .trust-badge svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--secondary-color);
+        }
+        
+        .trust-badge span {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        /* Booking Widget */
+        .booking-widget {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--shadow-lg);
+            margin-top: -50px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .booking-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            align-items: end;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+            font-size: 0.9rem;
+        }
+        
+        .form-group input,
+        .form-group select {
+            padding: 12px 15px;
+            border: 2px solid var(--border-color);
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-secondary {
+            background: var(--secondary-color);
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #008c5a;
+            transform: translateY(-2px);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+        
+        .btn-outline:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-large {
+            padding: 16px 40px;
+            font-size: 1.1rem;
+        }
+        
+        .btn-full {
+            width: 100%;
+        }
+        
+        /* Info Boxes */
+        .info-box {
+            background: var(--bg-light);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: var(--border-radius);
+        }
+        
+        .info-box.success {
+            border-left-color: var(--success-color);
+            background: #e8f5e9;
+        }
+        
+        .info-box.warning {
+            border-left-color: var(--warning-color);
+            background: #fff8e1;
+        }
+        
+        .info-box-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+        
+        /* Pricing Tables */
+        .pricing-section {
+            margin: 40px 0;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .pricing-card {
+            background: white;
+            border: 2px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .pricing-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-5px);
+        }
+        
+        .pricing-card.featured {
+            border-color: var(--secondary-color);
+            border-width: 3px;
+        }
+        
+        .pricing-badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: var(--accent-color);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        
+        .pricing-card h3 {
+            margin-top: 0;
+            color: var(--primary-dark);
+        }
+        
+        .price-large {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 20px 0;
+        }
+        
+        .price-period {
+            font-size: 1rem;
+            color: var(--text-light);
+            font-weight: 400;
+        }
+        
+        .price-comparison {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 15px 0;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: var(--border-radius);
+        }
+        
+        .price-was {
+            text-decoration: line-through;
+            color: var(--text-light);
+            font-size: 1.1rem;
+        }
+        
+        .price-save {
+            color: var(--success-color);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+        .pricing-features {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .pricing-features li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .pricing-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        
+        /* Comparison Table */
+        .comparison-table {
+            overflow-x: auto;
+            margin: 30px 0;
+            box-shadow: var(--shadow-md);
+            border-radius: var(--border-radius);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        thead {
+            background: var(--primary-dark);
+            color: white;
+        }
+        
+        thead th {
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+        
+        tbody tr:hover {
+            background: var(--bg-light);
+        }
+        
+        tbody td {
+            padding: 18px 15px;
+        }
+        
+        .table-highlight {
+            background: #e8f5e9;
+            font-weight: 700;
+        }
+        
+        .table-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--success-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .table-badge.warning {
+            background: var(--warning-color);
+            color: var(--text-dark);
+        }
+        
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        /* Feature Cards */
+        .feature-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            transition: var(--transition);
+        }
+        
+        .feature-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 1.8rem;
+        }
+        
+        .feature-card h4 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        
+        .feature-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+        
+        /* Cross-Sell Cards */
+        .cross-sell-section {
+            background: var(--bg-light);
+            padding: 50px 0;
+            margin: 60px 0;
+        }
+        
+        .cross-sell-card {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .cross-sell-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .cross-sell-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+        }
+        
+        .cross-sell-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .cross-sell-content h4 {
+            margin-top: 0;
+            color: var(--primary-dark);
+        }
+        
+        .cross-sell-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 15px 0;
+        }
+        
+        .cross-sell-features {
+            list-style: none;
+            margin: 15px 0;
+            flex-grow: 1;
+        }
+        
+        .cross-sell-features li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            font-size: 0.9rem;
+        }
+        
+        .cross-sell-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: 700;
+        }
+        
+        /* Reviews Section */
+        .reviews-section {
+            background: white;
+            padding: 40px 0;
+        }
+        
+        .review-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .review-author {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        
+        .review-date {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .star-rating {
+            color: #ffc107;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .review-text {
+            color: var(--text-medium);
+            line-height: 1.6;
+        }
+        
+        .review-service {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 4px 12px;
+            background: var(--bg-light);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text-medium);
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            margin: 50px 0;
+        }
+        
+        .faq-item {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 20px 25px;
+            font-weight: 700;
+            color: var(--text-dark);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+        
+        .faq-question:hover {
+            background: var(--bg-light);
+            color: var(--primary-color);
+        }
+        
+        .faq-answer {
+            padding: 0 25px 20px 25px;
+            color: var(--text-medium);
+            line-height: 1.7;
+        }
+        
+        .faq-icon {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: var(--transition);
+        }
+        
+        /* Internal Links Section */
+        .internal-links {
+            background: var(--bg-light);
+            padding: 40px 0;
+            margin: 60px 0;
+        }
+        
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .internal-link {
+            background: white;
+            padding: 15px 20px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+            display: block;
+            text-align: center;
+        }
+        
+        .internal-link:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        /* Blog Section */
+        .blog-card {
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        
+        .blog-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-3px);
+        }
+        
+        .blog-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .blog-content {
+            padding: 20px;
+        }
+        
+        .blog-category {
+            display: inline-block;
+            padding: 4px 12px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+        
+        .blog-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+        }
+        
+        .blog-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-medium);
+            margin-bottom: 15px;
+        }
+        
+        .blog-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        /* Sticky CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+            padding: 15px 0;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .sticky-cta.active {
+            display: block;
+        }
+        
+        .sticky-cta-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .sticky-cta-text {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .booking-form {
+                grid-template-columns: 1fr;
+            }
+            
+            .trust-badges {
+                justify-content: center;
+            }
+            
+            .pricing-grid,
+            .grid-2,
+            .grid-3,
+            .grid-4 {
+                grid-template-columns: 1fr;
+            }
+            
+            .sticky-cta-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .comparison-table {
+                font-size: 0.85rem;
+            }
+            
+            thead th,
+            tbody td {
+                padding: 12px 8px;
+            }
+        }
+        
+        /* Utility Classes */
+        .text-center {
+            text-align: center;
+        }
+        
+        .mt-40 {
+            margin-top: 40px;
+        }
+        
+        .mb-40 {
+            margin-bottom: 40px;
+        }
+        
+        .highlight {
+            background: linear-gradient(180deg, transparent 60%, #ffeb3b 60%);
+            padding: 0 4px;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .badge-success {
+            background: var(--success-color);
+            color: white;
+        }
+        
+        .badge-primary {
+            background: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Edinburgh Airport Parking</h1>
+                <p class="hero-subtitle">Save up to 70% on Edinburgh Airport parking. Compare Park & Ride, Meet & Greet, and Long Stay options from £22.75/week. Book now with free cancellation.</p>
+                
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.997-6l7.07-7.071-1.414-1.414-5.656 5.657-2.829-2.829-1.414 1.414L11.003 16z"/></svg>
+                        <span>Low Price Guarantee</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.997-6l7.07-7.071-1.414-1.414-5.656 5.657-2.829-2.829-1.414 1.414L11.003 16z"/></svg>
+                        <span>Free Cancellation</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.997-6l7.07-7.071-1.414-1.414-5.656 5.657-2.829-2.829-1.414 1.414L11.003 16z"/></svg>
+                        <span>Secure Car Parks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Widget -->
+    <div class="container">
+        <div class="booking-widget">
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="drop-off-date">Drop-off Date</label>
+                    <input type="date" id="drop-off-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="drop-off-time">Drop-off Time</label>
+                    <select id="drop-off-time">
+                        <option value="06:00">06:00</option>
+                        <option value="08:00">08:00</option>
+                        <option value="10:00">10:00</option>
+                        <option value="12:00" selected>12:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="18:00">18:00</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pick-up-date">Pick-up Date</label>
+                    <input type="date" id="pick-up-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="pick-up-time">Pick-up Time</label>
+                    <select id="pick-up-time">
+                        <option value="06:00">06:00</option>
+                        <option value="08:00">08:00</option>
+                        <option value="10:00">10:00</option>
+                        <option value="12:00" selected>12:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="18:00">18:00</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Search Parking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Introduction -->
+        <section class="mt-40">
+            <h2>Find the Best Parking Deals at Edinburgh Airport</h2>
+            <p>Looking for <strong>cheap Edinburgh airport parking</strong>? You've come to the right place. Compare and book from the UK's leading car parks including NCP Scotpark, PremiAir, Secure Airparks, and Low Cost Parking – all offering secure, convenient parking options at Scotland's busiest airport.</p>
+            <p>Whether you're jetting off for a weekend city break or a fortnight in the sun, we'll help you find the perfect parking solution. Book in advance and save up to 70% compared to on-the-day prices at the gate.</p>
+            
+            <div class="info-box success">
+                <div class="info-box-title">💡 Top Saving Tip</div>
+                <p>Book at least 2 weeks in advance to secure the cheapest Edinburgh airport parking rates. Early bookers save an average of £65 per week compared to turning up on the day.</p>
+            </div>
+        </section>
+
+        <!-- Pricing Comparison - Our Best Deals -->
+        <section class="pricing-section">
+            <h2>Compare Edinburgh Airport Parking Prices</h2>
+            <p>See how much you can save when you book with Enjoy Travel. All prices include transfers, security, and free cancellation.</p>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Park</th>
+                            <th>Type</th>
+                            <th>Transfer Time</th>
+                            <th>4 Days</th>
+                            <th>6 Days</th>
+                            <th>8 Days</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>NCP Scotpark</strong></td>
+                            <td>Park & Ride</td>
+                            <td>5 minutes</td>
+                            <td class="table-highlight">£11.50</td>
+                            <td class="table-highlight">£17.25</td>
+                            <td class="table-highlight">£22.75</td>
+                            <td><a href="#" class="btn btn-primary">Book Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>PremiAir Parking</strong></td>
+                            <td>Park & Ride</td>
+                            <td>5-10 minutes</td>
+                            <td>£11.50</td>
+                            <td>£17.25</td>
+                            <td>£22.75</td>
+                            <td><a href="#" class="btn btn-primary">Book Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Secure Airparks</strong></td>
+                            <td>Park & Ride</td>
+                            <td>2 minutes</td>
+                            <td>£20.00</td>
+                            <td>£30.00</td>
+                            <td>£39.99</td>
+                            <td><a href="#" class="btn btn-primary">Book Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Low Cost Parking</strong></td>
+                            <td>Park & Ride</td>
+                            <td>10 minutes</td>
+                            <td>£23.50</td>
+                            <td>£35.25</td>
+                            <td>£46.99</td>
+                            <td><a href="#" class="btn btn-primary">Book Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Flying Scot</strong></td>
+                            <td>Park & Ride</td>
+                            <td>10 minutes</td>
+                            <td>£28.50</td>
+                            <td>£42.75</td>
+                            <td>£56.99</td>
+                            <td><a href="#" class="btn btn-primary">Book Now</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maple Manor M&G</strong></td>
+                            <td>Meet & Greet</td>
+                            <td>At terminal</td>
+                            <td>£35.00</td>
+                            <td>£52.50</td>
+                            <td>£69.99</td>
+                            <td><a href="#" class="btn btn-secondary">Book Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-box">
+                <p><strong>All prices include:</strong> Free transfers to/from terminal, 24/7 CCTV security, Park Mark accreditation, and free cancellation up to 24 hours before arrival.</p>
+            </div>
+        </section>
+
+        <!-- Savings Comparison Table -->
+        <section class="pricing-section">
+            <h2>How Much Can You Save vs Official Edinburgh Airport Parking?</h2>
+            <p>Compare our pre-book prices against official Edinburgh Airport on-the-day rates. The savings speak for themselves.</p>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Duration</th>
+                            <th>Official Airport Price (On-the-Day)</th>
+                            <th>Enjoy Travel Price (Pre-Book)</th>
+                            <th>You Save</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>4 Days</strong></td>
+                            <td>£110.00</td>
+                            <td class="table-highlight">£11.50 <span class="table-badge">NCP Scotpark</span></td>
+                            <td><strong style="color: var(--success-color);">£98.50 (90%)</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>6 Days</strong></td>
+                            <td>£165.00</td>
+                            <td class="table-highlight">£17.25 <span class="table-badge">NCP Scotpark</span></td>
+                            <td><strong style="color: var(--success-color);">£147.75 (90%)</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>8 Days (1 Week)</strong></td>
+                            <td>£220.00</td>
+                            <td class="table-highlight">£22.75 <span class="table-badge">NCP Scotpark</span></td>
+                            <td><strong style="color: var(--success-color);">£197.25 (90%)</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>NCP Scotpark</h3>
+                    <p>Park & Ride - 5 min transfer</p>
+                    <div class="price-large">£22.75<span class="price-period">/week</span></div>
+                    <div class="price-comparison">
+                        <span class="price-was">Was £220.00</span>
+                        <span class="price-save">Save 90%</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>5-minute shuttle to terminal</li>
+                        <li>24/7 CCTV & security patrols</li>
+                        <li>Park Mark accredited</li>
+                        <li>Free cancellation</li>
+                        <li>Number plate recognition</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-full">Book NCP Scotpark</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>PremiAir Parking</h3>
+                    <p>Park & Ride - 5-10 min transfer</p>
+                    <div class="price-large">£22.75<span class="price-period">/week</span></div>
+                    <div class="price-comparison">
+                        <span class="price-was">Was £220.00</span>
+                        <span class="price-save">Save 90%</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Quick 5-10 min transfer</li>
+                        <li>Secure fenced compound</li>
+                        <li>Regular shuttle service</li>
+                        <li>Floodlit car park</li>
+                        <li>Excellent customer reviews</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-full">Book PremiAir</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Secure Airparks</h3>
+                    <p>Park & Ride - 2 min transfer</p>
+                    <div class="price-large">£39.99<span class="price-period">/week</span></div>
+                    <div class="price-comparison">
+                        <span class="price-was">Was £220.00</span>
+                        <span class="price-save">Save 82%</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Fastest transfer (2 minutes)</li>
+                        <li>EV charging available</li>
+                        <li>Closest off-airport option</li>
+                        <li>Frequent shuttles 24/7</li>
+                        <li>Premium security features</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-full">Book Secure Airparks</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Edinburgh Airport Parking Types -->
+        <section>
+            <h2>Types of Parking at Edinburgh Airport</h2>
+            <p>Choose the parking option that best suits your travel needs and budget. Here's everything you need to know about each type.</p>
+
+            <div class="grid-2">
+                <div class="feature-card">
+                    <div class="feature-icon">🚗</div>
+                    <h4>Park & Ride</h4>
+                    <p><strong>Best for:</strong> Budget-conscious travellers, longer stays</p>
+                    <p>Drive to the car park, park your car, and hop on a free shuttle bus to the terminal. The most economical option with transfers typically taking 2-10 minutes. You keep your keys and your car stays secure in a monitored compound.</p>
+                    <p><strong>Price from:</strong> £22.75/week</p>
+                    <a href="#park-ride-details" class="btn btn-outline">Learn More</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👔</div>
+                    <h4>Meet & Greet</h4>
+                    <p><strong>Best for:</strong> Families, business travellers, premium service</p>
+                    <p>Drive straight to the terminal, hand your keys to a professional chauffeur, and walk directly to check-in. Your car is parked securely off-site and returned to you on arrival. The ultimate convenience.</p>
+                    <p><strong>Price from:</strong> £69.99/week</p>
+                    <a href="#meet-greet-details" class="btn btn-outline">Learn More</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h4>Long Stay Parking</h4>
+                    <p><strong>Best for:</strong> Holidays of 5+ days</p>
+                    <p>Official Edinburgh Airport long stay is a 6-8 minute walk to the terminal (no shuttle service). Offers free parking for the first 30 minutes, making it ideal for free drop-offs and pick-ups.</p>
+                    <p><strong>Price:</strong> £28.99/week (pre-book) vs £220/week (on-the-day)</p>
+                    <a href="#long-stay-details" class="btn btn-outline">Learn More</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h4>Mid Stay Parking</h4>
+                    <p><strong>Best for:</strong> 3-7 day trips</p>
+                    <p>Sits between Terminal and Long Stay in both price and distance (5-minute walk). Open-air parking with no shuttle required. Good balance of convenience and cost.</p>
+                    <p><strong>Price:</strong> £37.99/week (pre-book) vs £230/week (on-the-day)</p>
+                    <a href="#mid-stay-details" class="btn btn-outline">Learn More</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h4>Terminal Parking</h4>
+                    <p><strong>Best for:</strong> Short stays, drop-offs, convenience priority</p>
+                    <p>Park within 2-3 minutes' walk of departures. Closest on-airport option (excluding Multi-Storey). Open-air surface parking with excellent accessibility.</p>
+                    <p><strong>Price:</strong> £44.99/week (pre-book)</p>
+                    <a href="#terminal-parking-details" class="btn btn-outline">Learn More</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🅿️</div>
+                    <h4>Multi-Storey Parking</h4>
+                    <p><strong>Best for:</strong> Business travellers, fastest security access</p>
+                    <p>Covered parking with direct bridge access to FastTRACK security on Level 2. Just 1-minute walk to departures. Includes FastTRACK for up to 5 passengers.</p>
+                    <p><strong>Price:</strong> £54.99/week (pre-book)</p>
+                    <a href="#multistorey-details" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Parking Options -->
+        <section id="park-ride-details">
+            <h3>Park & Ride at Edinburgh Airport</h3>
+            <p>Park & Ride is the most popular and economical parking choice at Edinburgh Airport. Drive to your chosen car park, self-park, and catch a complimentary shuttle bus to the terminal.</p>
+
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Park</th>
+                            <th>Distance</th>
+                            <th>Transfer Time</th>
+                            <th>Shuttle Frequency</th>
+                            <th>Keep Keys?</th>
+                            <th>Week Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>NCP Scotpark</strong></td>
+                            <td>0.6 miles</td>
+                            <td>5 minutes</td>
+                            <td>Every 10 mins</td>
+                            <td>✓ Yes</td>
+                            <td class="table-highlight">£22.75</td>
+                        </tr>
+                        <tr>
+                            <td><strong>PremiAir Parking</strong></td>
+                            <td>1 mile</td>
+                            <td>5-10 minutes</td>
+                            <td>Every 10-15 mins</td>
+                            <td>✓ Yes</td>
+                            <td class="table-highlight">£22.75</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Secure Airparks</strong></td>
+                            <td>1 mile</td>
+                            <td>2 minutes</td>
+                            <td>Every 5-10 mins (24/7)</td>
+                            <td>✓ Yes</td>
+                            <td>£39.99</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Low Cost Parking</strong></td>
+                            <td>1.6 miles</td>
+                            <td>10-15 minutes</td>
+                            <td>Every 15-20 mins</td>
+                            <td>✗ No (staff park)</td>
+                            <td>£46.99</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Flying Scot</strong></td>
+                            <td>0.5 miles</td>
+                            <td>10 minutes</td>
+                            <td>Every 15 mins</td>
+                            <td>✓ Yes</td>
+                            <td>£56.99</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-title">How Park & Ride Works</div>
+                <ol>
+                    <li>Drive to your pre-booked car park (full directions sent via email)</li>
+                    <li>Park in any available bay (ANPR recognises your number plate)</li>
+                    <li>Grab your luggage and head to the shuttle bus stop</li>
+                    <li>Free shuttle takes you to the terminal (5-10 minutes)</li>
+                    <li>On return, catch the shuttle back to the car park</li>
+                    <li>Drive away (exit barrier opens automatically)</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="meet-greet-details">
+            <h3>Meet & Greet Parking at Edinburgh Airport</h3>
+            <p>Meet & Greet offers the ultimate in convenience. Drive straight to the terminal, hand over your keys, and walk directly to check-in whilst a professional chauffeur parks your car in a secure off-site compound.</p>
+
+            <div class="grid-2">
+                <div>
+                    <h4>Available Meet & Greet Services</h4>
+                    <ul class="pricing-features">
+                        <li><strong>Maple Manor Meet & Greet</strong> - £69.99/week</li>
+                        <li><strong>Park and Fly Meet & Greet</strong> - £69.99/week</li>
+                        <li><strong>Meteor Meet & Greet</strong> - £74.99/week</li>
+                        <li><strong>Purple Parking Meet & Greet</strong> - £74.99/week</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Compare Meet & Greet Options</a>
+                </div>
+                <div>
+                    <h4>What's Included</h4>
+                    <ul class="pricing-features">
+                        <li>Meet at terminal drop-off zone</li>
+                        <li>Professional chauffeur service</li>
+                        <li>Car parked in secure off-site compound</li>
+                        <li>24/7 CCTV monitoring</li>
+                        <li>Car returned to you on arrival</li>
+                        <li>No shuttle buses needed</li>
+                        <li>Perfect for families with luggage</li>
+                        <li>Free cancellation included</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box success">
+                <div class="info-box-title">💼 Perfect for Business Travellers</div>
+                <p>Meet & Greet is ideal if you're travelling for work. No time wasted finding a space or waiting for shuttles. Simply hand over your keys and head straight to your flight. Time is money.</p>
+            </div>
+        </section>
+
+        <!-- Cross-Sell Section 1: Hotels -->
+        <section class="cross-sell-section">
+            <div class="container">
+                <h2 class="text-center">Enhance Your Journey - Add a Hotel Stay</h2>
+                <p class="text-center">Avoid the early morning rush. Stay overnight near the airport and start your holiday refreshed.</p>
+                
+                <div class="grid-3">
+                    <div class="cross-sell-card">
+                        <div class="cross-sell-image">🏨</div>
+                        <div class="cross-sell-content">
+                            <h4>Edinburgh Airport Hotels + Parking</h4>
+                            <div class="cross-sell-price">From £89/night</div>
+                            <p>Bundle your parking with an overnight hotel stay for maximum convenience and savings.</p>
+                            <ul class="cross-sell-features">
+                                <li>Free parking for up to 15 days</li>
+                                <li>Comfortable room & breakfast</li>
+                                <li>Free airport shuttle</li>
+                                <li>Save vs booking separately</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary btn-full">View Hotel Packages</a>
+                        </div>
+                    </div>
+
+                    <div class="cross-sell-card">
+                        <div class="cross-sell-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">✈️</div>
+                        <div class="cross-sell-content">
+                            <h4>Airport Lounges</h4>
+                            <div class="cross-sell-price">From £25/person</div>
+                            <p>Relax in comfort before your flight with complimentary food, drinks, and Wi-Fi.</p>
+                            <ul class="cross-sell-features">
+                                <li>Unlimited food & beverages</li>
+                                <li>Free Wi-Fi & newspapers</li>
+                                <li>Comfortable seating areas</li>
+                                <li>Shower facilities available</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline btn-full">Book Lounge Access</a>
+                        </div>
+                    </div>
+
+                    <div class="cross-sell-card">
+                        <div class="cross-sell-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">🚗</div>
+                        <div class="cross-sell-content">
+                            <h4>Car Hire at Destination</h4>
+                            <div class="cross-sell-price">From £12/day</div>
+                            <p>Need a car when you land? Compare prices from all major rental companies.</p>
+                            <ul class="cross-sell-features">
+                                <li>Compare 100+ rental companies</li>
+                                <li>No hidden fees</li>
+                                <li>Free cancellation</li>
+                                <li>Instant confirmation</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline btn-full">Search Car Hire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Edinburgh Airport -->
+        <section>
+            <h2>About Edinburgh Airport (EDI)</h2>
+            <p>Edinburgh Airport is Scotland's busiest airport and the sixth busiest in the UK, serving over 14 million passengers annually. Located 8 miles west of Edinburgh city centre, it's the primary gateway to Scotland's capital and beyond.</p>
+
+            <div class="grid-2">
+                <div>
+                    <h3>Airport Overview</h3>
+                    <ul class="pricing-features">
+                        <li><strong>Airport Code:</strong> EDI / EGPH</li>
+                        <li><strong>Terminals:</strong> 1 main passenger terminal</li>
+                        <li><strong>Annual Passengers:</strong> 14+ million</li>
+                        <li><strong>Runways:</strong> 2 (main runway 06/24)</li>
+                        <li><strong>Operating Hours:</strong> 24/7</li>
+                        <li><strong>Distance to City:</strong> 8 miles (20 mins)</li>
+                        <li><strong>Postcode:</strong> EH12 9DN</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Key Airlines Operating at EDI</h3>
+                    <ul class="pricing-features">
+                        <li>British Airways</li>
+                        <li>easyJet (largest operator)</li>
+                        <li>Ryanair</li>
+                        <li>Jet2</li>
+                        <li>Loganair</li>
+                        <li>KLM</li>
+                        <li>Lufthansa</li>
+                        <li>United Airlines</li>
+                        <li>Emirates</li>
+                        <li>Virgin Atlantic (seasonal)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Popular Destinations from Edinburgh</h3>
+            <p>Edinburgh Airport connects Scotland to over 150 destinations worldwide.</p>
+            <div class="grid-4">
+                <div class="feature-card">
+                    <h4>🇬🇧 Domestic</h4>
+                    <p>London (Heathrow, Gatwick, City, Luton, Stansted), Manchester, Birmingham, Belfast, Bristol, Newcastle, Southampton</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🇪🇺 European</h4>
+                    <p>Amsterdam, Paris, Dublin, Barcelona, Madrid, Rome, Lisbon, Copenhagen, Prague, Brussels, Geneva</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🌍 Long-Haul</h4>
+                    <p>New York (JFK, Newark), Toronto, Dubai, Doha, Newark, Orlando (seasonal)</p>
+                </div>
+                <div class="feature-card">
+                    <h4>☀️ Popular Holidays</h4>
+                    <p>Alicante, Málaga, Palma, Faro, Tenerife, Lanzarote, Ibiza, Greek Islands, Turkey, Egypt</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terminal Facilities -->
+        <section>
+            <h3>Facilities at Edinburgh Airport</h3>
+            <p>Edinburgh Airport offers world-class facilities to make your journey comfortable and convenient.</p>
+
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Facility</th>
+                            <th>Location</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Airport Lounges</strong></td>
+                            <td>Airside - Gates 4 & 16</td>
+                            <td>Aspire Lounge, Plaza Premium, British Airways Lounge</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Restaurants & Cafés</strong></td>
+                            <td>Landside & Airside</td>
+                            <td>All Bar One, BrewDog, Caffè Nero, Wagamama, The Flyer, Grain Store, M&S Food</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Shopping</strong></td>
+                            <td>Mainly Airside</td>
+                            <td>World Duty Free, Boots, WHSmith, Superdry, Edinburgh Woollen Mill, Scottish gifts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Free Wi-Fi</strong></td>
+                            <td>Throughout terminal</td>
+                            <td>Unlimited free Wi-Fi - no registration needed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Charging Points</strong></td>
+                            <td>All areas</td>
+                            <td>USB and plug sockets at seating areas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ATMs & Currency</strong></td>
+                            <td>Landside & Airside</td>
+                            <td>Multiple ATMs, Travelex bureau de change</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Family Facilities</strong></td>
+                            <td>Throughout terminal</td>
+                            <td>Baby changing, family lanes, play areas, buggy-friendly</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Prayer Room</strong></td>
+                            <td>Ground floor, Arrivals</td>
+                            <td>Multi-faith quiet room available 24/7</td>
+                        </tr>
+                        <tr>
+                            <td><strong>FastTRACK Security</strong></td>
+                            <td>Main security area</td>
+                            <td>Pre-book to skip queues (included with Multi-Storey parking)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Twilight Bag Drop</strong></td>
+                            <td>Check-in area</td>
+                            <td>Drop bags night before for Ryanair, easyJet, Jet2, BA (selected flights)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Getting to Edinburgh Airport -->
+        <section>
+            <h3>Getting to and from Edinburgh Airport</h3>
+            <p>Edinburgh Airport is excellently connected to the city centre and wider Scotland via multiple transport options.</p>
+
+            <div class="grid-2">
+                <div class="feature-card">
+                    <h4>🚗 By Car</h4>
+                    <p><strong>From Edinburgh City Centre:</strong> 20 minutes via A8 Westbound</p>
+                    <p><strong>From M8 Motorway:</strong> Exit at Junction 2, follow signs for Airport</p>
+                    <p><strong>From M9 Motorway:</strong> Exit at Junction 1A onto M8, then as above</p>
+                    <p><strong>From M90/Forth Bridge:</strong> M9 to M8, Exit Junction 2</p>
+                    <p><strong>Sat Nav Postcode:</strong> EH12 9DN</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>🚊 Edinburgh Tram</h4>
+                    <p><strong>Journey Time:</strong> 35 minutes from city centre</p>
+                    <p><strong>Frequency:</strong> Every 7-10 minutes</p>
+                    <p><strong>Cost:</strong> £6.50 single, £9.00 return</p>
+                    <p><strong>Hours:</strong> 05:00 - 00:30 daily</p>
+                    <p>Direct service from Airport to York Place via Haymarket and Princes Street.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>🚌 Airlink 100 Bus</h4>
+                    <p><strong>Journey Time:</strong> 30 minutes to city centre</p>
+                    <p><strong>Frequency:</strong> Every 10 minutes</p>
+                    <p><strong>Cost:</strong> £4.50 single, £7.50 return</p>
+                    <p><strong>Hours:</strong> 24/7 service</p>
+                    <p>Stops at Haymarket, West End, and Waverley Bridge.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h4>🚕 Taxi</h4>
+                    <p><strong>Journey Time:</strong> 20-25 minutes</p>
+                    <p><strong>Cost:</strong> £25-35 to city centre</p>
+                    <p>Official taxi rank located directly outside the terminal. Pre-book for guaranteed fixed prices.</p>
+                </div>
+            </div>
+
+            <div class="info-box warning">
+                <div class="info-box-title">⚠️ Drop-Off Charges Apply</div>
+                <p>Edinburgh Airport charges for drop-offs at the terminal forecourt. Use the <strong>Long Stay car park for FREE drop-off/pick-up</strong> (30 minutes free, then charges apply). It's a 6-8 minute walk to the terminal.</p>
+            </div>
+        </section>
+
+        <!-- Blue Badge Parking -->
+        <section>
+            <h3>Blue Badge Parking at Edinburgh Airport</h3>
+            <p>Edinburgh Airport provides excellent facilities for Blue Badge holders across all official car parks.</p>
+
+            <div class="grid-2">
+                <div>
+                    <h4>Blue Badge Facilities</h4>
+                    <ul class="pricing-features">
+                        <li>Over 130 Blue Badge spaces across 5 car parks</li>
+                        <li>Located close to terminal entrances</li>
+                        <li>Call points near all Blue Badge bays</li>
+                        <li>1 hour free parking for drop-off/pick-up</li>
+                        <li>Accessible routes to terminal</li>
+                        <li>No pre-booking required (subject to availability)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Where to Find Blue Badge Bays</h4>
+                    <ul class="pricing-features">
+                        <li><strong>Multi-Storey Car Park:</strong> All levels</li>
+                        <li><strong>Terminal Surface:</strong> Near terminal entrance</li>
+                        <li><strong>Mid Stay:</strong> Close to pedestrian route</li>
+                        <li><strong>Long Stay:</strong> Near shuttle bus stops</li>
+                        <li><strong>Plane Parking:</strong> Available on request</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <p><strong>Important:</strong> Display your Blue Badge clearly at all times. While spaces cannot be pre-booked, availability is generally good outside peak holiday periods.</p>
+            </div>
+        </section>
+
+        <!-- EV Charging -->
+        <section>
+            <h3>Electric Vehicle Charging at Edinburgh Airport</h3>
+            <p>Planning to drive your electric vehicle to Edinburgh Airport? Here's what you need to know about EV charging facilities.</p>
+
+            <div class="info-box warning">
+                <div class="info-box-title">⚡ Limited EV Charging Available</div>
+                <p><strong>Secure Airparks</strong> is currently the only Edinburgh Airport parking provider offering EV charging facilities. We recommend ensuring your vehicle is adequately charged before arriving at other car parks.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="feature-card">
+                    <h4>Secure Airparks Electric Charge</h4>
+                    <p><strong>Price:</strong> £74.99/week (8 days)</p>
+                    <p><strong>Transfer:</strong> 2 minutes to terminal</p>
+                    <ul class="pricing-features">
+                        <li>Type 2 charging points available</li>
+                        <li>7kW chargers</li>
+                        <li>Book EV charging in advance</li>
+                        <li>Dedicated EV parking bays</li>
+                        <li>Same security as standard Secure Airparks</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Book EV Charging Space</a>
+                </div>
+                <div>
+                    <h4>Alternative EV Charging</h4>
+                    <p>If Secure Airparks is fully booked, consider these options:</p>
+                    <ul class="pricing-features">
+                        <li>Charge at home before departure</li>
+                        <li>Use rapid chargers near airport (Shell Gogar, Hermiston Gait)</li>
+                        <li>Edinburgh city centre has multiple charging points</li>
+                        <li>Most airport hotels offer EV charging for guests</li>
+                    </ul>
+                    <p><strong>Nearest Rapid Chargers:</strong></p>
+                    <p>Shell Gogar (2 miles) - 50kW rapid chargers<br>
+                    Hermiston Gait Shopping Centre (3 miles) - Multiple chargers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="reviews-section">
+            <h2>What Our Customers Say About Edinburgh Airport Parking</h2>
+            <p class="text-center">Rated <strong>4.8/5</strong> based on <strong>11,435</strong> verified reviews</p>
+            <div class="star-rating text-center" style="font-size: 2rem; margin-bottom: 30px;">★★★★★</div>
+
+            <div class="grid-2">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Mrs Ruthven</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">4 days ago</div>
+                    </div>
+                    <p class="review-text">"Excellent booking experience using the app. Good directions provided and great price. Easy to find, plenty parking spaces. Transfer to and from the airport hassle free. Will definitely use again."</p>
+                    <span class="review-service">NCP Scotpark</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Mr Jamieson</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">1 week ago</div>
+                    </div>
+                    <p class="review-text">"Parking experience was incredibly smooth. Transfers to and from airport were quick. Didn't have to wait on the transfers at all. Bus was ready and waiting for us. Highly recommended."</p>
+                    <span class="review-service">PremiAir Parking</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Miss Jackson</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">1 week ago</div>
+                    </div>
+                    <p class="review-text">"Car park was easy to find, directions on booking were easy to follow. Number plate recognised straight away. Bus arrived within minutes. Only a short trip to the airport. Both bus drivers were polite and friendly."</p>
+                    <span class="review-service">Secure Airparks</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Mr McCafferty</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">2 weeks ago</div>
+                    </div>
+                    <p class="review-text">"Always find they are value for money. We booked meet and greet at Edinburgh airport and found the whole experience very positive. Car was there when we arrived back so no waiting on buses. Staff very helpful. Definitely recommend."</p>
+                    <span class="review-service">Meet & Greet</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Mrs Young</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">2 weeks ago</div>
+                    </div>
+                    <p class="review-text">"Airport parking facilities were very easy to find, transfer bus was waiting and just a few minutes to the airport. Staff were friendly and helpful. Great value parking at Edinburgh."</p>
+                    <span class="review-service">Low Cost Parking</span>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div>
+                            <div class="review-author">Mr Hutchinson</div>
+                            <div class="star-rating">★★★★★</div>
+                        </div>
+                        <div class="review-date">3 weeks ago</div>
+                    </div>
+                    <p class="review-text">"Very efficient service, reasonably easy to find a parking space and a short wait for the bus that drops you off at the terminal in 4/5 minutes. The incoming pickup was again, very prompt. Well recommended."</p>
+                    <span class="review-service">Flying Scot</span>
+                </div>
+            </div>
+
+            <div class="text-center mt-40">
+                <a href="#" class="btn btn-outline">Read All 11,435 Reviews</a>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions About Edinburgh Airport Parking</h2>
+            <p>Got questions? We've got answers. Here's everything you need to know about parking at Edinburgh Airport.</p>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How much does parking cost at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Parking prices at Edinburgh Airport vary by duration and parking type. Our cheapest option is <strong>NCP Scotpark at £22.75/week (8 days)</strong>, compared to £220 if you turn up on the day at the official long stay. For 4 days, prices start from £11.50, and 6 days from £17.25.</p>
+                    <p>Meet & Greet options start from £69.99/week. Always book in advance for the best prices – on-the-day rates can be up to 90% more expensive.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is the cheapest parking at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>NCP Scotpark and PremiAir Parking</strong> consistently offer the cheapest rates at £22.75/week (8 days) or £2.84/day. Both are Park & Ride services located less than 1 mile from the terminal with quick 5-10 minute shuttle transfers.</p>
+                    <p>For even cheaper parking, book well in advance (2+ weeks) as prices increase closer to your travel date.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I cancel my Edinburgh Airport parking booking?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! All our Edinburgh Airport parking bookings include <strong>free cancellation up to 24 hours before your arrival time</strong>. Simply manage your booking online or contact our customer service team.</p>
+                    <p>Some premium options offer even more flexible cancellation policies. Check your booking confirmation for specific terms.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Is there free parking at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, the official <strong>Long Stay car park offers 30 minutes FREE parking</strong>, making it ideal for quick drop-offs and pick-ups. After 30 minutes, charges apply (£7 for 30 mins - 1 hour).</p>
+                    <p>The Long Stay car park is a 6-8 minute walk from the terminal. There's no shuttle service, so factor this in if you have heavy luggage or mobility issues.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do I need to book parking at Edinburgh Airport in advance?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>While you can turn up on the day at official car parks, <strong>we strongly recommend booking in advance</strong> to:</p>
+                    <ul>
+                        <li>Save up to 90% vs on-the-day prices</li>
+                        <li>Guarantee your space (car parks can fill up during peak times)</li>
+                        <li>Access off-airport Park & Ride options (which are cheaper but require pre-booking)</li>
+                        <li>Book Meet & Greet services (not available on the day)</li>
+                    </ul>
+                    <p>Our cheapest pre-book rate is £22.75/week vs £220/week turning up on the day – that's a £197 saving!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How early should I arrive at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Edinburgh Airport recommends:</p>
+                    <ul>
+                        <li><strong>UK/Ireland flights:</strong> 2 hours before departure</li>
+                        <li><strong>European flights:</strong> 2-3 hours before departure</li>
+                        <li><strong>Long-haul flights:</strong> 3-4 hours before departure</li>
+                    </ul>
+                    <p>Add extra time if parking off-airport (allow 15-20 minutes for Park & Ride shuttle) and during peak periods like school holidays, Friday evenings, and Sunday afternoons.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is Park & Ride at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Park & Ride means you drive to a car park located slightly away from the airport (usually 0.5-2 miles), park your car, and catch a free shuttle bus to the terminal. Transfer times range from 2-15 minutes depending on the car park.</p>
+                    <p>It's the most economical option, with prices starting from £22.75/week. All Park & Ride services include:</p>
+                    <ul>
+                        <li>Secure parking with 24/7 CCTV</li>
+                        <li>Free shuttle buses (running continuously)</li>
+                        <li>Park Mark security accreditation</li>
+                        <li>Number plate recognition technology</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is Meet & Greet parking at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Meet & Greet (also called valet parking) is a premium service where you drive directly to the terminal, hand your keys to a professional chauffeur, and walk straight to check-in. The chauffeur parks your car in a secure off-site compound while you're away.</p>
+                    <p>On your return, your car is brought back to the terminal for you. No shuttle buses, no waiting – ultimate convenience. Prices start from £69.99/week.</p>
+                    <p><strong>Perfect for:</strong> Families with young children, business travellers, anyone with lots of luggage, or those seeking maximum convenience.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How far is the terminal from each car park at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Here's a breakdown of distances and transfer times:</p>
+                    <ul>
+                        <li><strong>Multi-Storey:</strong> 1-minute walk</li>
+                        <li><strong>Terminal Surface:</strong> 2-3 minute walk</li>
+                        <li><strong>Mid Stay:</strong> 5-minute walk</li>
+                        <li><strong>Long Stay:</strong> 6-8 minute walk (no shuttle)</li>
+                        <li><strong>Secure Airparks:</strong> 1 mile (2-min shuttle)</li>
+                        <li><strong>NCP Scotpark:</strong> 0.6 miles (5-min shuttle)</li>
+                        <li><strong>PremiAir:</strong> 1 mile (5-10 min shuttle)</li>
+                        <li><strong>Low Cost:</strong> 1.6 miles (10-15 min shuttle)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What are the security measures for parking at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>All our recommended car parks feature comprehensive security:</p>
+                    <ul>
+                        <li><strong>24/7 CCTV monitoring</strong> covering all parking areas</li>
+                        <li><strong>Park Mark accreditation</strong> (police-approved security standard)</li>
+                        <li><strong>Security patrols</strong> throughout the day and night</li>
+                        <li><strong>Perimeter fencing</strong> and secure entry/exit barriers</li>
+                        <li><strong>Floodlighting</strong> for visibility</li>
+                        <li><strong>ANPR technology</strong> (automatic number plate recognition)</li>
+                        <li><strong>Staff presence</strong> during operating hours</li>
+                    </ul>
+                    <p>You can leave your car with complete confidence knowing it's in safe hands.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What if I arrive earlier or later than my booked time at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>Arriving early:</strong> Most car parks will accommodate you if you arrive a few hours early. However, if you're arriving significantly earlier (e.g., the previous day), contact the car park in advance.</p>
+                    <p><strong>Arriving late:</strong> Car parks typically have a grace period. If you're running late, call the car park to inform them.</p>
+                    <p><strong>Returning late:</strong> If your return flight is delayed, don't worry. Most car parks offer flexibility, though you may incur additional charges for extended stays. Late Return Cover is available for £5-10 to protect against unexpected delays.</p>
+                    <p><strong>Pro tip:</strong> Add Late Return Cover to your booking for peace of mind if your flight is delayed up to 48 hours.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I park overnight at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, absolutely! All our parking options are suitable for overnight stays and longer holidays. Most bookings are for 4-14 days.</p>
+                    <p>For stays of 1 week or more, we recommend Park & Ride options like NCP Scotpark or PremiAir (from £22.75/week) for the best value. All car parks operate 24/7 with full security.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What if I have an electric vehicle at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>Secure Airparks Electric Charge</strong> is currently the only Edinburgh parking option with EV charging facilities (£74.99/week). They offer Type 2 chargers (7kW).</p>
+                    <p>If booking other car parks, ensure your vehicle is fully charged before arrival. Nearest rapid chargers are at Shell Gogar (2 miles) and Hermiston Gait (3 miles).</p>
+                    <p>Most Edinburgh Airport hotels also offer EV charging for guests.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Is parking free for Blue Badge holders at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>No, parking isn't free for extended stays, but Blue Badge holders get <strong>1 hour free parking</strong> at all official Edinburgh Airport car parks for drop-offs and pick-ups.</p>
+                    <p>Over 130 dedicated Blue Badge bays are available across Multi-Storey, Terminal Surface, Mid Stay, Long Stay, and Plane Parking. Bays are located close to terminal entrances with call points nearby.</p>
+                    <p>Pre-booking is recommended during busy periods, though spaces cannot be reserved in advance.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How do I find my car park at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>When you book, you'll receive a confirmation email with:</p>
+                    <ul>
+                        <li>Full address and postcode for sat nav</li>
+                        <li>Detailed driving directions</li>
+                        <li>What3Words location</li>
+                        <li>Map showing car park location</li>
+                        <li>Contact number for the car park</li>
+                    </ul>
+                    <p>All off-airport car parks are clearly signposted from the main airport approach roads. If you're unsure, call the car park directly – they're happy to provide directions.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I amend my parking booking at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, you can amend your booking online via the "Manage Booking" section. Changes can include:</p>
+                    <ul>
+                        <li>Changing your arrival/departure dates</li>
+                        <li>Changing arrival/departure times</li>
+                        <li>Changing your vehicle registration</li>
+                        <li>Upgrading to a different parking type</li>
+                    </ul>
+                    <p>If the new price is higher, you'll pay the difference. If it's lower, you'll receive a refund. Amendments must be made at least 24 hours before arrival.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How much does it cost to park for a day at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>One day's parking costs from <strong>£2.84/day</strong> when you pre-book NCP Scotpark or PremiAir Park & Ride.</p>
+                    <p>If you turn up on the day at official Long Stay, expect to pay around £50 for 24 hours. Official Multi-Storey charges £75 for 10-24 hours on-the-day.</p>
+                    <p><strong>Our advice:</strong> Always pre-book to save money, even for short stays.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How much does a week of parking cost at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>A week's parking (8 days) starts from <strong>£22.75</strong> when you pre-book NCP Scotpark or PremiAir Parking.</p>
+                    <p>If you turn up without booking at official Long Stay, expect to pay around <strong>£220</strong> – that's a saving of £197.25 (90%) by booking in advance!</p>
+                    <p>Meet & Greet options start from £69.99/week for premium convenience.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is the difference between on-airport and off-airport parking?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>On-airport parking</strong> is located within the airport perimeter. Options include Multi-Storey, Terminal Surface, Mid Stay, Long Stay, and Plane Parking. These are walking distance from the terminal (1-8 minutes).</p>
+                    <p><strong>Off-airport parking</strong> is located outside the airport boundary (0.5-2 miles away). You park and catch a free shuttle bus to the terminal (2-15 minutes). Off-airport is typically cheaper.</p>
+                    <p>Both options offer excellent security. The choice comes down to budget vs convenience.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Are there height restrictions at Edinburgh Airport car parks?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>Multi-Storey Car Park:</strong> 2.2m height limit (covered parking)</p>
+                    <p><strong>All other car parks:</strong> No height restrictions (open-air or high barriers)</p>
+                    <p>If you're driving a high vehicle (motorhome, van, 4x4 with roof box), avoid the Multi-Storey and book Terminal Surface, Long Stay, or any off-airport Park & Ride instead.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What happens if my car is damaged while parked at Edinburgh Airport?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>While extremely rare due to excellent security, if you discover damage:</p>
+                    <ol>
+                        <li>Take photos of the damage immediately</li>
+                        <li>Report it to car park staff before leaving the site</li>
+                        <li>Request an incident report form</li>
+                        <li>Contact the car park operator's claims department</li>
+                        <li>If booked through us, contact our customer service team for support</li>
+                    </ol>
+                    <p>All our partner car parks have liability insurance, though terms vary. Many Meet & Greet services include complimentary insurance coverage.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    Can I get a refund if I don't use my parking booking?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>If you cancel at least 24 hours before your booked arrival time, you'll receive a <strong>full refund</strong> with our free cancellation policy.</p>
+                    <p>If you simply don't turn up (no-show), you won't automatically receive a refund, but contact our customer service team – we may be able to help depending on circumstances.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How do I know my booking is confirmed?
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>You'll receive an instant email confirmation containing:</p>
+                    <ul>
+                        <li>Your booking reference number</li>
+                        <li>Car park name and address</li>
+                        <li>Arrival and departure dates/times</li>
+                        <li>Directions and what to do on arrival</li>
+                        <li>Contact details for the car
