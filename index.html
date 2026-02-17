@@ -9,6 +9,35 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     
     <style>
+        .sticky-cta {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    box-shadow: 0 -6px 24px rgba(0,0,0,0.18);
+    padding: 20px 0;
+    z-index: 9999;
+    display: none;
+    border-top: 4px solid #FF6B35;
+}
+.sticky-cta.active { display: block; animation: slideUp 0.4s ease; }
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+.sticky-cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.sticky-cta-text { font-weight: 700; font-size: 1.15rem; color: #1a1a1a; }
+.sticky-cta-price { color: #FF6B35; font-size: 1.4rem; font-weight: 700; }
+@media (max-width: 768px) {
+    .sticky-cta-content { flex-direction: column; text-align: center; gap: 14px; }
+}
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
@@ -563,6 +592,23 @@
         }
     </style>
 </head>
+    <div class="sticky-cta" id="sticky-cta">
+    <div class="sticky-cta-content">
+        <div>
+            <div class="sticky-cta-text">Edinburgh Airport Parking</div>
+            <div class="sticky-cta-price">From £19.95/week – Save 70%</div>
+        </div>
+        <a href="#" style="background:#FF6B35;color:white;padding:16px 36px;font-size:1.05rem;font-weight:700;border-radius:10px;text-decoration:none;display:inline-block;">Compare Prices →</a>
+    </div>
+</div>
+    <script>
+    window.addEventListener('scroll', function() {
+        var el = document.getElementById('sticky-cta');
+        if (!el) return;
+        el.style.display = (window.scrollY > 400) ? 'block' : 'none';
+    }, { passive: true });
+</script>
+    
 <body>
 
 <!-- Hero -->
