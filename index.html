@@ -9,35 +9,6 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     
     <style>
-        .sticky-cta {
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    background: white;
-    box-shadow: 0 -6px 24px rgba(0,0,0,0.18);
-    padding: 20px 0;
-    z-index: 9999;
-    display: none;
-    border-top: 4px solid #FF6B35;
-}
-.sticky-cta.active { display: block; animation: slideUp 0.4s ease; }
-@keyframes slideUp {
-    from { transform: translateY(100%); }
-    to { transform: translateY(0); }
-}
-.sticky-cta-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-.sticky-cta-text { font-weight: 700; font-size: 1.15rem; color: #1a1a1a; }
-.sticky-cta-price { color: #FF6B35; font-size: 1.4rem; font-weight: 700; }
-@media (max-width: 768px) {
-    .sticky-cta-content { flex-direction: column; text-align: center; gap: 14px; }
-}
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
@@ -557,25 +528,22 @@
             background: white;
             box-shadow: 0 -6px 24px rgba(0,0,0,0.18);
             padding: 20px 0;
-            z-index: 1000;
-            display: none;
-            border-top: 4px solid var(--primary-orange);
+            z-index: 9999;
+            transform: translateY(100%);
+            transition: transform 0.4s ease;
+            border-top: 4px solid #FF6B35;
         }
-        .sticky-cta.active { display: block; animation: slideUp 0.4s ease; }
-        @keyframes slideUp {
-            from { transform: translateY(100%); }
-            to { transform: translateY(0); }
+        .sticky-cta.active {
+            transform: translateY(0);
         }
-        
         .sticky-cta-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 24px;
         }
-        .sticky-cta-text { font-weight: 700; font-size: 1.15rem; }
-        .sticky-cta-price { color: var(--primary-orange); font-size: 1.4rem; font-weight: 700; }
-        
+        .sticky-cta-text { font-weight: 700; font-size: 1.15rem; color: #1a1a1a; }
+        .sticky-cta-price { color: #FF6B35; font-size: 1.4rem; font-weight: 700; }
         .text-center { text-align: center; }
         .mt-60 { margin-top: 60px; }
         .mb-60 { margin-bottom: 60px; }
@@ -592,23 +560,6 @@
         }
     </style>
 </head>
-    <div class="sticky-cta" id="sticky-cta">
-    <div class="sticky-cta-content">
-        <div>
-            <div class="sticky-cta-text">Edinburgh Airport Parking</div>
-            <div class="sticky-cta-price">From £19.95/week – Save 70%</div>
-        </div>
-        <a href="#" style="background:#FF6B35;color:white;padding:16px 36px;font-size:1.05rem;font-weight:700;border-radius:10px;text-decoration:none;display:inline-block;">Compare Prices →</a>
-    </div>
-</div>
-    <script>
-    window.addEventListener('scroll', function() {
-        var el = document.getElementById('sticky-cta');
-        if (!el) return;
-        el.style.display = (window.scrollY > 400) ? 'block' : 'none';
-    }, { passive: true });
-</script>
-    
 <body>
 
 <!-- Hero -->
@@ -1631,35 +1582,56 @@
                 <div class="sticky-cta-text">Edinburgh Airport Parking</div>
                 <div class="sticky-cta-price">From £19.95/week – Save 70%</div>
             </div>
-            <a href="#" class="btn btn-primary">Compare Prices →</a>
+            <a href="#" style="background:#FF6B35;color:white;padding:16px 36px;font-size:1.05rem;font-weight:700;border-radius:10px;text-decoration:none;display:inline-block;box-shadow:0 6px 16px rgba(255,107,53,0.35);">Compare Prices →</a>
         </div>
     </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-function handleScroll() {
-    var sticky = document.getElementById('sticky-cta');
-    var scrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    if (scrollY > 400) {
-        sticky.classList.add('active');
-    } else {
-        sticky.classList.remove('active');
-    }
-}
-window.addEventListener('scroll', handleScroll, { passive: true });
-document.addEventListener('scroll', handleScroll, { passive: true });
-document.documentElement.addEventListener('scroll', handleScroll, { passive: true });
+<script>
+(function() {
+    var bar = document.getElementById('sticky-cta');
+    var threshold = 400;
+    var ticking = false;
 
-document.addEventListener('DOMContentLoaded', function() {
-    var today = new Date();
-    var nextWeek = new Date();
-    nextWeek.setDate(today.getDate() + 7);
-    
-    var formatDate = function(date) {
-        var year = date.getFullYear();
-        var month = String(date.getMonth() + 1).padStart(2, '0');
-        var day = String(date.getDate()).padStart(2, '0');
-        return year + '-' + month + '-' + day;
-    };
-    
-    var dropOff = document.getElementById('
+    function update() {
+        var scrollY = window.scrollY !== undefined ? window.scrollY : (document.documentElement.scrollTop || document.body.scrollTop || 0);
+        if (scrollY > threshold) {
+            bar.classList.add('active');
+        } else {
+            bar.classList.remove('active');
+        }
+        ticking = false;
+    }
+
+    function onScroll() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+            ticking = true;
+        }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // Set default dates
+    document.addEventListener('DOMContentLoaded', function() {
+        var today = new Date();
+        var nextWeek = new Date();
+        nextWeek.setDate(today.getDate() + 7);
+        var formatDate = function(date) {
+            var year = date.getFullYear();
+            var month = String(date.getMonth() + 1).padStart(2, '0');
+            var day = String(date.getDate()).padStart(2, '0');
+            return year + '-' + month + '-' + day;
+        };
+        var dropOff = document.getElementById('drop-off-date');
+        var pickUp = document.getElementById('pick-up-date');
+        if (dropOff && pickUp) {
+            dropOff.value = formatDate(today);
+            pickUp.value = formatDate(nextWeek);
+        }
+    });
+})();
+</script>
+
+</body>
+</html>
